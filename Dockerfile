@@ -45,7 +45,7 @@ RUN usermod -u 1000 www-data
 COPY --chown=www-data:www-data . /var/www/html
 
 # Change current user to ww
-USER www-data
+#USER www-data
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
